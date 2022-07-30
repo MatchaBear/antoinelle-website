@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
     <div>
@@ -8,9 +10,9 @@ export default function Home() {
           designers, and passionate creatives
         </h2>
         <div className="cta">
-          <a href="/contact" className="cta-button">
+          <Link to="/contact" className="cta-button">
             Book Your Discovery Call
-          </a>
+          </Link>
         </div>
       </div>
       <img src="/assets/preview.jpeg" alt="preview" className="preview-image" />
