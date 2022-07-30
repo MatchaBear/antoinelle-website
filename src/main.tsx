@@ -25,7 +25,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
       <Route path="/contact" element={<Contact />} />
     </Routes>
 
-    <footer>
+    <footer className="footer">
       <p>Copyright {year} Antoinelle</p>
     </footer>
   </BrowserRouter>
