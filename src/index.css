@@ -19,6 +19,11 @@ body {
   max-width: 100%;
 }
 
+.cta {
+  display: flex;
+  justify-content: center;
+}
+
 .cta-button {
   background-color: rgb(255, 239, 173);
   padding: 15px 20px;

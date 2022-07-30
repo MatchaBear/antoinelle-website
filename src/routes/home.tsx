@@ -7,9 +7,11 @@ export default function Home() {
           Bespoke branding and showit website design for wedding pros, interior
           designers, and passionate creatives
         </h2>
-        <a href="/contact" className="cta-button">
-          Book Your Discovery Call
-        </a>
+        <div className="cta">
+          <a href="/contact" className="cta-button">
+            Book Your Discovery Call
+          </a>
+        </div>
       </div>
       <img src="/assets/preview.jpeg" alt="preview" className="preview-image" />
     </div>
