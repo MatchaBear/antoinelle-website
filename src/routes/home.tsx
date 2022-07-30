@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div>
-      <h1 className="logo">Antoinelle</h1>
       <div className="hero">
         <h2 className="intro">
           Bespoke branding and showit website design for wedding pros, interior
