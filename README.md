@@ -1,5 +1,5 @@
 
-# Welcome to no-js-build for antoinelle.co website
+# Welcome to no-js-build branch for antoinelle.co website
 
 This is an attempt to re-build an initially React-based webpage into an ordinary html and css-based only page.
 
