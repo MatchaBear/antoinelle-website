@@ -22,12 +22,19 @@ module.exports = {
       serif: ["Merriweather", "serif"],
     },
     extend: {
+      backgroundImage: {
+        "hero-pattern": "url('/assets/hero.jpg')",
+        "footer-texture": "url('/img/footer-texture.png')",
+      },
       spacing: {
         128: "32rem",
         144: "36rem",
       },
       borderRadius: {
         "4xl": "2rem",
+      },
+      maxHeight: {
+        128: "32rem",
       },
     },
     plugins: [],
