@@ -23,8 +23,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('/assets/hero.jpg')",
-        "footer-texture": "url('/img/footer-texture.png')",
+        "hero-pattern": "url('/assets/images/hero.jpg')",
       },
       spacing: {
         128: "32rem",
