@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>antoinelle.co</title>
-    <link rel="icon" type="image/svg+xml" href="/assets/antoinelle.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/assets/images/antoinelle.svg"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,14 +17,16 @@
     />
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body class="">
+  <body class="m-0">
     <header class="">
-      <section class="flex justify-center">
-        Hello World
+      <div class="flex justify-center">
         <!-- for marquee -->
-      </section>
-      <nav class="flex justify-center">
-        <div>
+        Hello World
+      </div>
+      <div class="flex justify-between">
+        <!-- for top navigation -->
+        <div class="flex items-center">
+          <!-- for logo on top left -->
           <a href="/">
             <img
               class="h-8"
@@ -29,45 +35,51 @@
             />
           </a>
         </div>
-        <ul class="flex list-none p-px items-center">
-          <li>
-            <a href="/">
-              <img
-                class="w-8"
-                src="/assets/images/yinyang.svg"
-                alt="Toggle to Dark Mode or Bright Mode"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <img
-                class="w-8"
-                src="/assets/images/mobile-version.svg"
-                alt="Toggle to Mobile Version"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <img
-                class="w-8"
-                src="/assets/images/desktop-version.svg"
-                alt="Toggle to Desktop Version"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <img
-                class="w-8"
-                src="/assets/images/account.svg"
-                alt="Account Icon"
-              />
-            </a>
-          </li>
-        </ul>
-      </nav>
+        <div class="p-px items-center">
+          <!-- for top right navigation -->
+          <ul class="flex list-none">
+            <li class="flex items-center p-px">
+              <a href="/">
+                <img
+                  class="w-8"
+                  src="/assets/images/yinyang.svg"
+                  alt="Toggle to Dark Mode or Bright Mode"
+                />
+              </a>
+            </li>
+            <li class="flex items-center p-px">
+              <a href="/">
+                <img
+                  class="w-8"
+                  src="/assets/images/mobile-version.svg"
+                  alt="Toggle to Mobile Version"
+                />
+              </a>
+            </li>
+            <li class="flex items-center p-px">
+              <a href="/">
+                <img
+                  class="w-8"
+                  src="/assets/images/desktop-version.svg"
+                  alt="Toggle to Desktop Version"
+                />
+              </a>
+            </li>
+            <li class="flex items-center p-px">
+              <a href="/">
+                <img
+                  class="w-8"
+                  src="/assets/images/account.svg"
+                  alt="Account Icon"
+                />
+              </a>
+            </li>
+            <li class="flex items-center p-px">
+              <a href="/">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main class="flex justify-center border-dotted border-8">
