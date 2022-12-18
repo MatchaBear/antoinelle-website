@@ -2,11 +2,9 @@
 module.exports = {
   content: ["*.{html,js}"],
   theme: {
-    extend: {
-      fontFamily: {
-        'quicksand': ['Quicksand', 'sans-serif'],
-        'Quicksand': ['Quicksand', 'serif'],
-      },
+    fontFamily: {
+      'sspro': ['"Source Serif Pro"', 'serif'],
+
     },
     extend: {
       backgroundImage: {
