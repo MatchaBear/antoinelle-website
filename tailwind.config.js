@@ -3,16 +3,15 @@ module.exports = {
   content: ["*.{html,js}"],
   theme: {
     fontFamily: {
-      'sspro': ['"Source Serif Pro"', 'serif'],
-
+      'span': ['"Source Serif Pro"', 'serif']
     },
     extend: {
       backgroundImage: {
         'hero': "url('/assets/images/hero.jpg')"
       }
     },
-    plugins: [],
   },
+  plugins: [],
   corePlugins: {
     preflight: false,
   },
