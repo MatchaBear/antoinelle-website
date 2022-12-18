@@ -6,11 +6,10 @@ module.exports = {
       'eaves': ['mrs-eaves-roman-lining', 'serif']
     },
     borderRadius: {
-      '6xl': '3rem',
-      '9xl': '4.5rem'
+      '6xl': '3rem'
     },
     boxShadow: {
-      'button-shadow': '5px 4px 1px -1px #A89E93'
+      'button-shadow': '4px 4px 1px -1px #A89E93'
     },
     extend: {
       backgroundImage: {
