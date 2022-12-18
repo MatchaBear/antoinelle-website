@@ -13,7 +13,3 @@
 ul {
   padding-inline-start: 0;
 }
-
-span.button::after {
-  content: url=("assets/images/button-arrow-circle-up-right.svg");
-}
