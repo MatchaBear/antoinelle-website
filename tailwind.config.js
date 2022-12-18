@@ -8,7 +8,11 @@ module.exports = {
         'Quicksand': ['Quicksand', 'serif'],
       },
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('/assets/images/hero.jpg')"
+      }
+    },
     plugins: [],
   },
   corePlugins: {
