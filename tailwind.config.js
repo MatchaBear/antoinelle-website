@@ -9,6 +9,9 @@ module.exports = {
       '6xl': '3rem',
       '9xl': '4.5rem'
     },
+    boxShadow: {
+      'button-shadow': '5px 4px 1px -1px #A89E93'
+    },
     extend: {
       backgroundImage: {
         'hero': "url('/assets/images/hero.jpg')"
