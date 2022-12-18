@@ -17,7 +17,8 @@ module.exports = {
       },
       colors: {
         'beige': '#F3EFE6',
-        'button-text': '#946B4D'
+        'button-text': '#946B4D',
+        'button-shadow': '#A89E93'
       },
     },
   },
