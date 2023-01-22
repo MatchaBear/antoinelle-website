@@ -2,15 +2,205 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/antoinelle.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Antoinelle</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>antoinelle.co</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/assets/images/antoinelle.svg"
+    />
+    <link href="https://use.typekit.net/rrx8uuq.css" rel="stylesheet" />
+    <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+
+  <body class="m-0 min-h-screen">
+    <header class="block fixed inset-x-0 top-0 bg-button-text bg-opacity-50">
+      <marquee class="m-0 py-px px-0 bg-amber-100 text-button-text">
+        <!-- for marquee -->
+        Hello World
+      </marquee>
+      <div class="flex justify-between mx-3 my-0">
+        <!-- for top navigation -->
+        <div class="flex items-center">
+          <!-- for logo on top left -->
+          <a href="/">
+            <img
+              class="h-8"
+              src="/assets/images/antoinelle-logo-beige.png"
+              alt="antoinelle"
+            />
+          </a>
+        </div>
+        <div class="flex items-center p-px">
+          <!-- for top right navigation -->
+          <div class="flex items-center px-2">
+            <ul class="flex list-none">
+              <li class="flex items-center mx-1">
+                <a href="/">
+                  <img
+                    class="w-8"
+                    src="/assets/images/nav-yinyang-light.svg"
+                    alt="Toggle to Dark Mode or Bright Mode"
+                  />
+                </a>
+              </li>
+              <li class="flex items-center mx-1">
+                <a href="/">
+                  <img
+                    class="w-8"
+                    src="/assets/images/nav-mobile-version-light.svg"
+                    alt="Toggle to Mobile Version"
+                  />
+                </a>
+              </li>
+              <li class="flex items-center mx-1">
+                <a href="/">
+                  <img
+                    class="w-8"
+                    src="/assets/images/nav-desktop-version-light.svg"
+                    alt="Toggle to Desktop Version"
+                  />
+                </a>
+              </li>
+              <li class="flex items-center mx-1">
+                <a href="/">
+                  <img
+                    class="w-8"
+                    src="/assets/images/nav-account-light.svg"
+                    alt="Account Icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="flex items-center h-full mx-1 px-2 hover:bg-button-text visited:text-button-text link:text-beige"
+          >
+            <a
+              href="/"
+              class="uppercase no-underline hover:bg-button-text visited:text-beige active:text-beige"
+              >sign in</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex justify-center">
+      <div class="flex flex-col items-center w-10/12">
+        <div
+          class="w-screen h-screen bg-gradient-to-r from-zinc-400 to-zinc-500"
+        >
+          <img
+            src="/assets/images/hero.jpg"
+            alt="antoinelle-hero"
+            class="w-full h-full object-cover mix-blend-soft-light"
+          />
+          <div class="p-24 absolute bottom-32 left-0">
+            <h1 class="text-beige text-6xl font-thin tracking-wider">
+              BESPOKE STATIONERIES
+            </h1>
+            <h2 class="text-beige text-3xl font-thin tracking-wider">
+              add a touch of personalities into your wedding details with our
+              thoughtfully crafted custom-made stationeries
+            </h2>
+            <div class="">
+              <button
+                class="ml-0 mr-16 my-0 rounded-6xl border-transparent shadow-button-shadow px-4 p-1"
+              >
+                <div class="flex items-center">
+                  <span class="font-eaves italic text-button-text text-lg mr-2">
+                    see our previous works
+                  </span>
+                  <img
+                    src="assets/images/button-arrow-circle-up-right.svg"
+                    alt="see previous works"
+                    class="h-8"
+                  />
+                </div>
+              </button>
+              <button
+                class="ml-0 mr-16 my-0 rounded-6xl border-transparent shadow-button-shadow px-4 p-1"
+              >
+                <div class="flex items-center">
+                  <span class="font-eaves italic text-button-text text-lg mr-2"
+                    >chat with us</span
+                  ><img
+                    src="assets/images/button-chat-teardrop.svg"
+                    alt="see previous works"
+                    class="h-8"
+                  />
+                </div>
+              </button>
+              <button
+                class="ml-0 mr-16 my-0 rounded-6xl border-transparent shadow-button-shadow px-4 p-1"
+              >
+                <div class="flex items-center">
+                  <span class="font-eaves italic text-button-text text-lg mr-2"
+                    >F A Q</span
+                  ><img
+                    src="assets/images/button-question.svg"
+                    alt="FAQ"
+                    class="h-8"
+                  />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="block border-2 border-violet-300 border-dashed text-button-text"
+        >
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+          <h1 class="text-3xl font-bold underline">Hello world!</h1>
+        </div>
+      </div>
+    </main>
+    <footer class=""></footer>
+    <nav class=""></nav>
   </body>
 </html>
